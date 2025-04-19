@@ -6,7 +6,7 @@ pipeline {
     environment {
         // Update the main app image name to match the deployment file
         //DOCKER_USERNAME = 'sakshijayade'
-        DOCKER_IMAGE_NAME = 'trainwithhubham/easyshop-app'
+        DOCKER_IMAGE_NAME = 'sakshijayade/easyshop-app'
         DOCKER_MIGRATION_IMAGE_NAME = 'trainwithshubham/easyshop-migration'
         DOCKER_IMAGE_TAG = "${BUILD_NUMBER}"
         GITHUB_CREDENTIALS = credentials('github-credentials')
